@@ -325,6 +325,11 @@ padding-bottom: 60px;
         width: 70%;
     }
 
+    #fondo_principal{
+        height: 100%;
+        padding-bottom: 100px;
+    }
+
 
 }
 
@@ -431,6 +436,46 @@ padding-bottom: 60px;
 
 .card_ready{
     width: 90%;
+}
+
+}
+
+
+
+
+
+
+@media (max-width:400px){
+
+
+.card_ready a{
+    padding: 10px 24px;
+}
+.cont_header a{
+        padding: 10px 4px;
+}
+
+.cont_header{
+    width: 98%;
+}
+
+.columna1 a{
+    padding: 14px 29px;
+}
+
+
+}
+
+@media (max-width: 350px){
+
+
+    .cont_header{
+        flex-direction: column;
+        align-items: center;
+    }
+.cont_header a{
+    width: 50%;
+    text-align: center;
 }
 
 }
